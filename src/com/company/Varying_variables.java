@@ -23,5 +23,8 @@ public class Varying_variables {
         System.out.println(decimal);
         System.out.println(string);
 
+        int seconds = 365 * 24 * 60 * 60;
+        System.out.println("There is "+ seconds + " seconds in a year.");
+
     }
 }
