@@ -16,7 +16,7 @@ public class Password {
                 System.out.println("Well done! The secret is: World is as strange as you want it to be");
                 break;
             }else{
-                System.out.println("Wrong!");
+                System.out.println("Nope!");
             }
 
         }
