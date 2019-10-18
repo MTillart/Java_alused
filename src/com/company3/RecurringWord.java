@@ -1,6 +1,7 @@
 package com.company3;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 
@@ -23,5 +24,10 @@ public class RecurringWord {
 
         } // while ends
         System.out.println("You cave the word " + repeatedWord + " twice.");
+        Collections.sort(words);
+        for (String word : words) {
+            System.out.println(word);
+        }
+
     }
 }
