@@ -10,8 +10,6 @@ public class WordInAWord {
         System.out.println("How about a another word:");
         String second = reader.nextLine();
 
-        int secLeng = second.length();
-
         int index = first.indexOf(second);
         System.out.println(index);
 
