@@ -15,7 +15,7 @@ public class AverageOfNumbers {
     }
     public static double average (ArrayList<Integer> list){
         double sum = 0;
-        for (double nr:list){
+        for (double nr : list){
             sum+=nr;
 
         }
